@@ -1,4 +1,4 @@
-# Minesweeper_game_Python
+# Minesweeper_game_Python_Tkinter
 Rules:  
 Try to unlock every empty boxes without clicking on the hidden mines. 
 When you unlock an empty box, it will tell you the number of mines there are next to it. 
