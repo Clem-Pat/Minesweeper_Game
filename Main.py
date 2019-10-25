@@ -340,7 +340,10 @@ def marquer(event):
         l = Liste_boutons[i].winfo_width()
         h = Liste_boutons[i].winfo_height()
         if x_clic in range(x_bouton,x_bouton+l+1) and y_clic in range(y_bouton,y_bouton+h+1):
-            Liste_boutons[i].config(bg='grey')
+            if Liste_boutons[i]['bg']=='blue':
+                Liste_boutons[i].config(bg='grey')
+            elif Liste_boutons[i]['bg']=='grey':
+                Liste_boutons[i].config(bg='blue')
             break
             
         
