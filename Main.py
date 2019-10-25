@@ -1,4 +1,4 @@
-"""démineur. COMPLETEMENT FINI """
+"""démineur"""
 """
 easy : 1chance/5 de tomber sur une bombe et comptabilise seulement les voisins adjacents
 normal : 1chance/5 de tomber sur une bombe et comptabilise tous les voisins même ceux en diagonale
